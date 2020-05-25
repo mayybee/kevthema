@@ -1,4 +1,5 @@
 ---
+posttype: "blog"
 title:  On Entelechy
 description: Or, how to balance theory and practice for people who like theory too much (me).
 date: "2020-05-20T10:13:13.121Z"

@@ -1,4 +1,5 @@
 ---
+posttype: "blog"
 title: "Eating Off Of Your Art and the Pareto Principle"
 description: "Wild observations from moonlighting as a street portrait artist."
 date: "2018-06-25 09:01:00 -0500"

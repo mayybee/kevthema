@@ -69,6 +69,12 @@ section p img {
 
 /* Bringing the color back to blog links */
 section a {
-    @apply text-indigo-500
+    @apply text-indigo-500;
 }
 
+/* Make all type small */
+@media (max-width: 768px) {
+    html {
+      font-size: 112.5%; /* --> 20px base size */
+    }
+  }

@@ -1,4 +1,5 @@
 ---
+posttype: "blog"
 title: An Alternative to Power Posing
 description: Amy Cuddy's hugely popular TED Talk is fun, but I've never found it very practical. Here's a tweak that turns Power-Posing into an effective psychological tool.
 date: "2020-05-08T23:46:37.121Z"

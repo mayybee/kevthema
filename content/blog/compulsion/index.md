@@ -1,4 +1,5 @@
 ---
+posttype: "blog"
 title: On Compulsion
 date: "2019-12-01T22:12:03.284Z"
 description: "Or why you should put the cart before the horse when setting goals."

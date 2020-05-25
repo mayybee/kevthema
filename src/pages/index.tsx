@@ -44,17 +44,17 @@ const Index = ({ data, location }: PageProps<Data>) => {
           <article key={node.fields.slug} style={{
             marginBottom: rhythm(4),
           }}>
-            <div className="grid gap-8 grid-cols-2" style={{
+            <div className="grid gap-8 md:grid-cols-2 grid-cols-1" style={{
                   marginBottom: rhythm(1),
                 }}>
               <header>
-              <h3 style={{ marginBottom: rhythm(1/2),}} className="text-3xl mb-2">
+              <h3 style={{ marginBottom: rhythm(1/2),}} className="text-3xl">
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
               <p className="mb-0">{node.frontmatter.role}</p>
-              <p className="opacity-50">{node.frontmatter.years}</p>
+              <p className="opacity-50 mb-0">{node.frontmatter.years}</p>
               </header>
               <div className="">
                 <p style={{

@@ -42,12 +42,12 @@ const About = ({ data, location }: PageProps<Data>) => {
                 Hi!
               </h3>
       <SEO title="About" />
-      <div className="grid grid-cols-4 gap-8">
+      <div className="grid md:grid-cols-2 gap-8">
      
-          <div className="col-span-2">
+          <div className="">
           <img src={portrait} alt="it'sa me" />
           </div>
-          <div className="col-span-2">
+          <div className="">
 
 I'm Kevin, a product designer living in Brooklyn. 
 

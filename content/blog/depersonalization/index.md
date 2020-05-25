@@ -1,4 +1,5 @@
 ---
+posttype: "blog"
 title:  The Allegory of the Yeerks
 description: It's much easier to give other people advice than it is to take your own advice. Why?
 date: "2020-05-24T10:13:13.121Z"

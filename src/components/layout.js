@@ -53,8 +53,9 @@ const Layout = ({ location, title, children }) => {
         marginLeft: `auto`,
         marginRight: `auto`,
         maxWidth: rhythm(40),
-        padding: `${rhythm(1.5)} ${rhythm(1.5)}`,
+        // padding: `${rhythm(1.5)} ${rhythm(1.5)}`,
       }}
+      className="p-5 md:p-10" //reponsive padding for all content
     >
       <Header title={title}/>
       <main style={{
