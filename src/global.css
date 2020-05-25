@@ -1,0 +1,74 @@
+@import url('https://rsms.me/inter/inter.css');
+
+/* @tailwind base; */
+
+@tailwind components;
+
+@tailwind utilities;
+
+.blog-section:hover .blog-section-title{ color: #667eea; }
+
+/* Trickery: Instead of using tailwind's normal resets, 
+we are only resetting select things, otherwise we'll get
+no use out of the opinionated typography.js rules!*/
+
+
+
+/* Keep headers regular font weight, not typography's BOLD*/ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+h1 {
+    line-height: 1.4em;
+}
+
+blockquote {
+    margin-left: 0.85rem;
+    padding-left: 0.85rem;
+    border-left: 6px solid black;
+    font-style: italic;
+}
+
+/* Reset global border styles */ 
+*,
+*::before,
+*::after {
+  border-width: 0;
+  border-style: solid;
+  border-color: theme('borderColor.default', currentColor);
+}
+
+/* Remove underlines and make links black */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.font-sans {
+    font-family: "Inter";
+   }
+
+/* Add some tasty image captions */
+span + em, img + em { 
+    @apply text-xs;
+    @apply opacity-50;
+    font-family: "Inter";
+    line-height: 0.7rem;
+}
+
+/* God this is horrible! */
+section p img {
+    margin-bottom: 0;
+}
+
+/* Bringing the color back to blog links */
+section a {
+    @apply text-indigo-500
+}
+
