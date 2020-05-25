@@ -34,12 +34,17 @@ type Data = {
 const Index = ({ data, location }: PageProps<Data>) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
-
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Work" />
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
+        const active = node.frontmatter.activelink
+        let display
+        if (active == false){
+          display = "hidden"
+        }
+        console.log(active)
         return (
           <article key={node.fields.slug} style={{
             marginBottom: rhythm(4),
@@ -67,7 +72,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
                 <Link style={{
                     marginTop: rhythm(1),
                   }}
-                  className="float-right hover:text-indigo-600" style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  className={`float-right hover:text-indigo-600 ${display}`} style={{ boxShadow: `none` }} to={node.fields.slug}>
                     Case Study →
                 </Link>
               </div>
@@ -97,6 +102,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            activelink
             years
             date(formatString: "MMMM DD, YYYY")
             title

@@ -6,7 +6,7 @@ years: "2017"
 date: "2020-05-20T23:46:37.121Z"  
 featuredImage: "./cover.jpg"
 role: "Product Designer"
-altlink: 
+activelink: false
 ---
 
 Download Flightdrop [on the App Store](https://apps.apple.com/us/app/flightdrop-huge-flight-deals/id1325279425).

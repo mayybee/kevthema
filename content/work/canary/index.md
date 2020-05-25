@@ -6,6 +6,7 @@ years: "2018 – 2020"
 featuredImage: "./cover.jpg"
 role: "Lead Product Designer"
 description: "As Lead Product Designer at NYC startup Canary, I worked on initiatives across product and marketing. The most impactful of these was a complete redesign of the mobile and web apps as the business transitioned from a one-time-sales to a SaaS model."
+activelink: true
 ---
 
 # App Redesign
