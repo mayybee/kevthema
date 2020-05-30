@@ -57,7 +57,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
             {print}
           </div>
           <div className="col-span-3">
-          <article className="max-w-md" key={node.fields.slug} style={{ marginBottom: rhythm(2),}}>
+          <article className="max-w-xl" key={node.fields.slug} style={{ marginBottom: rhythm(2),}}>
           <Link className="blog-section" style={{ boxShadow: `none` }} to={node.fields.slug}>
             <header>
               <p className="blog-section-title" style={{ marginBottom: rhythm(1 / 2),}}>

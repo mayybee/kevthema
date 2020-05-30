@@ -6,18 +6,28 @@ years: "2018 – 2020"
 featuredImage: "./cover.jpg"
 role: "Lead Product Designer"
 description: "As Lead Product Designer at NYC startup Canary, I worked on initiatives across product and marketing. The most impactful of these was a complete redesign of the mobile and web apps as the business transitioned from a one-time-sales to a SaaS model."
+intro: "Canary is your window into your home. I led a redesign of the mobile and web apps, and a reboot of our messaging and brand to reflect a the service-led paradigm of the IoT landscape."
 activelink: true
+team: ["Maciej Szelazek", "Marc DeBartolomeis", "Amruta Gosavi", "Michael Klein"]
+worktype: ["Product Design", "Product Management"]
+companysize: "55 people"
 ---
 
-# App Redesign
+I joined Canary as a Product Designer in July 2018, and took on a Lead Product Design role mid-2019. During this time, the business transitioned from a one-time hardware sales model to a SaaS model. Other IoT security companies, like Google's Nest and Ring were made similar strides.
 
-In 2018, we recognized that our app was not only a hindrance to users trying to understand the way the Canary system worked, but also an impediment for us trying to promote Canary Premium - our new bundle of software subscription features.
+The overarching challenge of the Product, Design and Engineering teams was to alter the trajectory of a company that had been built on the strengths of its products - aesthetics and hardware capabilities, towards that of a service company.
+
+In other words: instead of offering services to sell hardware, we'd be offering hardware to sell services.
+
+### App as Ecosystem 
+![Canary App Trials](./cover.jpg)
+
+In 2018, we recognized that our app was not only a hindrance to users trying to understand the way the Canary system worked, but also an impediment for us trying to promote Premium - our bundle of software subscription features.
 
 Our objective in redesigning the app was to address the first-order consequences of , but the second and third order consequences that sprang from that 
 
-![Canary App Trials](./cover.jpg)
 
-# Trials
+### Trials
 
 Riding the success of the app redesign, we looked into the trial experience.
 
@@ -27,7 +37,7 @@ We tackled them one-by-one, building previews for each feature (visibility in ac
 
 ![Canary App Trials](./trials.jpg)
 
-# Apple's Ultimatum
+### Apple's Ultimatum
 
 In 2018, Apple told us unless we took sign-ups out of the app, it would be taken out of the store.
 

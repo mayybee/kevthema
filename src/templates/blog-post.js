@@ -35,7 +35,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
         </div>
         <div className="col-span-3">
-          <article className="max-w-lg">
+          <article className="max-w-xl">
             <header>
               <h1
               className="text-2xl"

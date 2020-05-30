@@ -41,43 +41,47 @@ const Index = ({ data, location }: PageProps<Data>) => {
         const title = node.frontmatter.title || node.fields.slug
         const active = node.frontmatter.activelink
         let display
-        if (active == false){
+        if (active == false) {
           display = "hidden"
         }
         console.log(active)
         return (
           <article key={node.fields.slug} style={{
-            marginBottom: rhythm(4),
+            marginTop: rhythm(4),
+            marginBottom: rhythm(6),
           }}>
+            <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} style={{
+              marginBottom: rhythm(1),
+            }} />
+
             <div className="grid gap-8 md:grid-cols-2 grid-cols-1" style={{
-                  marginBottom: rhythm(1),
-                }}>
+              marginBottom: rhythm(1),
+            }}>
               <header>
-              <h3 style={{ marginBottom: rhythm(1/2),}} className="text-3xl">
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <p className="mb-0">{node.frontmatter.role}</p>
-              <p className="opacity-50 mb-0">{node.frontmatter.years}</p>
+                <h3 style={{ marginBottom: rhythm(1 / 2), }} className="text-3xl">
+                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    {title}
+                  </Link>
+                </h3>
+                <p className="mb-0">{node.frontmatter.role}</p>
+                <p className="opacity-50 mb-0">{node.frontmatter.years}</p>
               </header>
               <div className="">
                 <p style={{
-                    marginBottom: rhythm(1),
-                  }}
+                  marginBottom: rhythm(1),
+                }}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
                   }}
                 />
                 <Link style={{
-                    marginTop: rhythm(1),
-                  }}
+                  marginTop: rhythm(1),
+                }}
                   className={`float-right hover:text-indigo-600 ${display}`} style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    Case Study →
+                  Case Study →
                 </Link>
               </div>
             </div>
-            <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} />
           </article>
         )
       })}
@@ -102,6 +106,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
+            worktype
             activelink
             years
             date(formatString: "MMMM DD, YYYY")
