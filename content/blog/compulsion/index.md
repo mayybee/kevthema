@@ -2,11 +2,9 @@
 posttype: "blog"
 title: On Compulsion
 date: "2019-12-01T22:12:03.284Z"
-description: "Or why you should put the cart before the horse when setting goals."
+description: "A case for putting the cart before the horse when setting goals."
 ---
 
-![Sherlock Holmes and Watson](./sherlock.png)
-*Compulsion, visualized*
 
 *I want to be a writer, so I’m going to brainstorm some ideas.*
 
@@ -18,7 +16,7 @@ description: "Or why you should put the cart before the horse when setting goals
 
 This is how we’re trained from childhood. To visualize outcomes, set goals, and then take the necessary steps to achieve them.
 
-This approach works, otherwise we wouldn’t teach it. But not for highly-creative goals and endeavors.
+This approach works, otherwise we wouldn’t use it. The problem is applying it indiscriminately to everything we do.
 
 I have always found my creative and business pursuits to to be more enjoyable, satisfying, and successful if I went about them the exact opposite way:
 
@@ -33,6 +31,9 @@ I have always found my creative and business pursuits to to be more enjoyable, s
 I think the difference is this: the first group of statements come from the desire to be some 'type' of person. In other words, they come from a desire for attention. 
 
 The second group are driven by pure compulsion. You have to do it.
+
+![Sherlock Holmes and Watson](./sherlock.png)
+*Compulsion, visualized*
 
 When was the last time you were compelled to do something? 
 

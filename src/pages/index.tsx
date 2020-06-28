@@ -59,9 +59,10 @@ const Index = ({ data, location }: PageProps<Data>) => {
             }}>
               <header>
                 <h3 style={{ marginBottom: rhythm(1 / 2), }} className="text-3xl">
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                  {/* <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                     {title}
-                  </Link>
+                  </Link> */}
+                  {title}
                 </h3>
                 <p className="mb-0">{node.frontmatter.role}</p>
                 <p className="opacity-50 mb-0">{node.frontmatter.years}</p>

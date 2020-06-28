@@ -56,14 +56,15 @@ I'm Kevin, a product designer living in Brooklyn.
 <br/><br/>
 <p className=" ">I believe in:</p>
 
-<p className="font-bold mb-0">Prioritizing realistic impact</p>
-<p >It boggles my mind how much time designers & engineers will spend on blue-sky features that are never used, but not take the 10 minutes needed to make simple optimizations that can increase conversions by 3~15%.</p>
-
-<p className="font-bold mb-0">Focusing on the emotion transferred</p>
-<p>What are the emotional causes and implications of users coming to your product? Easy example: the <a className="text-indigo-500 cursor-pointer" href="https://canary.is/how-it-works">Canary</a> product isn't really about the fancy hardware at all: it's about peace of mind. </p>
+<p className="font-bold mb-0">Prioritizing impact</p>
+<p >It boggles my mind how much time designers & engineers are willing to spend on blue-sky features that end up unused, but not take the 10 minutes to make tweaks that guarantee +10% conversions.</p>
 
 <p className="font-bold mb-0">Starting from first principles</p>
-<p>Product decisions should be informed by a chain of logic, not fluffy data. We won't get it perfect the first time - that's where incremental improvement comes in.</p>
+<p>Product decisions should be informed by a chain of logic, not fluffy data.</p>
+
+<p className="font-bold mb-0">Incermental Improvement</p>
+<p>We won't get it perfect the first time, or ever. But well-planned rapid iteration will help us get pretty close.</p>
+
 
           </div>
 

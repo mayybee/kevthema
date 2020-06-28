@@ -56,7 +56,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
             </footer>
             <nav>
-              <ul
+              {/* <ul
                 style={{
                   display: `flex`,
                   flexWrap: `wrap`,
@@ -74,12 +74,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                 </li>
                 <li>
                   {next && (
-                    <Link to={next.fields.slug} rel="next">
+                    <Link to={`/blog/${next.fields.slug}`} rel="next">
                       {next.frontmatter.title} →
                     </Link>
                   )}
                 </li>
-              </ul>
+              </ul> */}
             </nav>
           </article>
         </div>
