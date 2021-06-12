@@ -9,4 +9,5 @@ description: "I tested the Vive at HTC Magic Labs and got a lot of headaches."
 activelink: false
 worktype: ["Product Design"]
 companysize: "50 people"
+team: ["Derik"]
 ---

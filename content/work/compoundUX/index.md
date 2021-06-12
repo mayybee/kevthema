@@ -12,6 +12,7 @@ intro: here
 role: "Growth & Design"
 activelink: false
 worktype: ["Product Design"]
+team: ["Me"]
 
 ---
 

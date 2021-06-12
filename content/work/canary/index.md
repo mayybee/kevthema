@@ -13,7 +13,7 @@ Redesigning the entire e-commerce experience for massive conversion increases (k
 "
 intro: ""
 activelink: false
-team: ["Maciej Szelazek", "Marc DeBartolomeis", "Amruta Gosavi", "Michael Klein"]
+team: ["Maciej Szelazek", "Marc DeBartolomeis", "Michael Klein"]
 worktype: ["Product Design", "Product Management"]
 companysize: "55 people"
 ---
