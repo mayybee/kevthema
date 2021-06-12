@@ -11,6 +11,8 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const { previous, next } = pageContext
 
+  console.log(pageContext)
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
@@ -46,39 +48,36 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
               </h1>
             </header>
             <section dangerouslySetInnerHTML={{ __html: post.html }} />
-            <hr
-              style={{
-                marginBottom: rhythm(1),
-              }}
-            />
-            <footer>
 
-            </footer>
-            <nav>
-              {/* <ul
+            <nav style={{
+              marginTop: rhythm(4),
+            }}>
+              <ul
                 style={{
                   display: `flex`,
                   flexWrap: `wrap`,
                   justifyContent: `space-between`,
                   listStyle: `none`,
-                  padding: 0,
+                  margin: 0,
                 }}
               >
                 <li>
-                  {previous && (
+                  {previous.frontmatter.posttype=="blog" && (
                     <Link to={previous.fields.slug} rel="prev">
+                      <span className="opacity-50">Previous</span><br/>
                       ← {previous.frontmatter.title}
                     </Link>
                   )}
                 </li>
                 <li>
-                  {next && (
-                    <Link to={`/blog/${next.fields.slug}`} rel="next">
+                  {next.frontmatter.posttype=="blog" && (
+                    <Link to={next.fields.slug} rel="next">
+                      <span className="opacity-50">Next</span><br/>
                       {next.frontmatter.title} →
                     </Link>
                   )}
                 </li>
-              </ul> */}
+              </ul>
             </nav>
           </article>
         </div>
@@ -97,7 +96,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    markdownRemark(fields: { slug: { eq: $slug } }) {
+    markdownRemark(frontmatter: {posttype: {eq: "blog"}}, fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
       html

@@ -22,7 +22,28 @@ exports.createPages = async ({ graphql, actions }) => {
                 slug
               }
             }
+            previous {
+              fields {
+                slug
+              }
+              frontmatter {
+                posttype
+  
+                title
+              }
+            }
+            next {
+              fields {
+                slug
+              }
+              frontmatter {
+                posttype
+            
+                title
+              }
+            }
           }
+          
         }
       }
     `
@@ -35,26 +56,25 @@ exports.createPages = async ({ graphql, actions }) => {
   // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
 
-  posts.forEach((post, index) => {
-    const previous = index === posts.length - 1 ? null : posts[index + 1].node
-    const next = index === 0 ? null : posts[index - 1].node
-    if (post.node.frontmatter.posttype === 'work') {
+  posts.forEach(({node, previous, next}) => {
+    
+    if (node.frontmatter.posttype === 'work') {
       createPage({
-        path: post.node.fields.slug,
+        path: node.fields.slug,
         component: workPost,
         context: {
-          slug: post.node.fields.slug,
+          slug: node.fields.slug,
           previous,
           next,
         },
       })
     }
-    if (post.node.frontmatter.posttype === 'blog') {
+    if (node.frontmatter.posttype === 'blog') {
       createPage({
-        path: post.node.fields.slug,
+        path: node.fields.slug,
         component: blogPost,
         context: {
-          slug: post.node.fields.slug,
+          slug: node.fields.slug,
           previous,
           next,
         },

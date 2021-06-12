@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import picture from "../../content/assets/pick.png"
+import bonfire from "../../content/assets/bonfire.jpg"
 import { rhythm } from "../utils/typography"
 
 
@@ -13,21 +13,32 @@ const NotFoundPage = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="404: Not Found" />
-      <div className="grid-cols-3">
-        <div className="max-w-sm">
-          <h1 className="text-2xl" style={{
-          marginBottom: rhythm(1) }}>What you're looking for may have been misplaced in Long-Term Memory.</h1>
+      <div className="grid-cols-2">
+        <div className="col-span-1">
+          <p className="" style={{
+            fontSize: rhythm(1),
+          marginBottom: rhythm(1) }}>What you're looking for has mysteriously vanished</p>
+         
+          <p style={{ marginBottom: rhythm(1) }}>
+          Come rest by thy bonfire. Then off with ye, intrepid adventurer.
+          <br/><br/>Don't you dare give up.
+          </p>
+
           <p style={{
-          marginBottom: rhythm(1) }}><Link
-          className="hover:text-indigo-500"
-          style={{
-            boxShadow: `none`,
-          }}
-          to={`/`}
-        >Go back Home →</Link></p>
-          <p style={{ marginBottom: rhythm(1) }}>It's dangerous to go alone! Take this</p>
-          <img src={picture} className="max-w-xs" alt="Picture of of pickaxe" />
+              marginBottom: rhythm(1) }}>
+            <Link
+              className="hovercolor"
+              style={{
+                boxShadow: `none`,
+              }}
+              to={`/`}
+            >Go Home →</Link>
+          </p>
         </div>
+        <div className="col-span-1">
+          <img src={bonfire} className=""/>
+        </div>
+
       </div>
     </Layout>
   )

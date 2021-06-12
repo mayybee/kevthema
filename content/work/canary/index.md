@@ -5,12 +5,12 @@ date: "2020-12-01T22:12:03.284Z"
 years: "2018 – 2020"
 featuredImage: "./cover.jpg"
 role: "Lead Product Designer"
-description: "Canary is one of those cameras that give you a notification if a masked stranger is snooping around your house, or if your dog is doing something funny. 
-<br><br>
-<b>Highlights:</b> redesigning the mobile app as the business shifted from a hardware only to completely SaaS-model.
-<br><br>
-Redesigning the entire e-commerce experience for massive conversion increases (kidding, it was only around 5%...but hey, when you're pulling tens of millions in recurring revenue a year...)
-"
+description: "<p>Canary is one of those cameras that give you a notification if a masked stranger is snooping around your house, or if your dog is doing something funny. 
+</p><p>
+<b>Highlights</b> include redesigning the mobile app as the business shifted from a hardware only to completely SaaS-model.</p>
+<p>
++ redesigning the entire e-commerce experience for massive conversion increases (kidding, it was only around 5%...but hey, when you're pulling tens of millions in recurring revenue a year...)
+</p>"
 intro: ""
 activelink: false
 team: ["Maciej Szelazek", "Marc DeBartolomeis", "Michael Klein"]

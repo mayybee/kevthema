@@ -77,20 +77,24 @@ span + em, img + em {
 
 /* God this is horrible! */
 section p img {
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 
 /* Bringing the color back to blog links */
 section a {
-    /* @apply bg-indigo-600; */
     color:rgb(146, 28, 225);
 }
 
+/* Size scales down on smaller viewports */
 
+html {
+    font-size: 87.5%;
+  }
 
-/* Make all type small */
-@media (max-width: 768px) {
+@media (min-width: 640px) {
     html {
-      font-size: 112.5%; /* --> 20px base size */
+      font-size: 100%;
     }
   }
+
+

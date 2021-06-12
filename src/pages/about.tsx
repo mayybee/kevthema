@@ -54,10 +54,10 @@ My name is Kevin. I live in New York.
 <br/><br/>
 <p className=" ">The broad idea behind my work is that <b>user success is fractal</b>. For software creators, "making users successful and getting paid for it" is a process that starts by looking at what our users want in their LIVES and how they're trying to GET it. 
 
-Then it's a matter of recursing downwards and downwards and downwards to the tiniest of moments.
+Then it's a matter of recursing downwards and downwards and downwards to the tiny software interaction moments.
 </p>
 <p>
-After all, we never buy products, we buy better versions of ourselves.</p>
+Because we never really do buy products, do we? We buy better versions of ourselves.</p>
 <p className=" ">
 These days I'm working on <b>Compound UX</b>, a consultancy that accelerates startups. 
 </p>

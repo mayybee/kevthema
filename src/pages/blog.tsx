@@ -34,13 +34,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   const posts = data.allMarkdownRemark.edges
   let prevYear = 2021
   return (
-    <Layout location={location} title={siteTitle}>
-      {/* <h3 style={{
-                  marginBottom: rhythm(4),
-                }}
-                className="text-3xl mb-2">
-                Writing
-              </h3> */}
+    <Layout location={location} title={siteTitle} >
       <SEO title="Writing" />
       <div className="grid grid-cols-8">
       {posts.map(({ node }) => {

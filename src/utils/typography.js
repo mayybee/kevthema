@@ -1,16 +1,8 @@
 import Typography from "typography"
-import twinPeaksTheme from 'typography-theme-twin-peaks'
-// twinPeaksTheme.overrideThemeStyles = (options) => ({
-//   'a': {
-//     color: '#1533D0',
-//     'background-image': 'none'
-//     }
-// })
-// const typography = new Typography(twinPeaksTheme)
 
 const typography = new Typography({
   baseFontSize: "16px",
-  baseLineHeight: 1.6,
+  baseLineHeight: 1.667,
   headerFontFamily: [
     "Inter",
     "Helvetica",
