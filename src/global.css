@@ -15,6 +15,18 @@
     color: rgb(146, 28, 225);
 }
 
+.brandcolor {
+    color:rgb(146, 28, 225);
+}
+
+.brandbutton {
+    cursor: pointer;
+    padding: 0.125rem 1rem;
+    border-radius: 8px;
+    background-color: rgba(146, 28, 225, 0.05);
+    color:rgb(146, 28, 225);
+}
+
 .hovercolor:hover {
     color:rgb(146, 28, 225);
 }

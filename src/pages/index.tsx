@@ -81,6 +81,7 @@ const Index = ({ data, location }: PageProps<Data>) => {
                 </Link>
               </div>
             </div>
+            
             <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} style={{
               marginBottom: rhythm(1),
               borderRadius: "32px",
