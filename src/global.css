@@ -6,7 +6,18 @@
 
 @tailwind utilities;
 
-.blog-section:hover .blog-section-title{ color: #667eea; }
+.blog-section:hover .blog-section-title { 
+    /* background: -webkit-linear-gradient(188deg, rgb(206, 149, 244) 0%, rgb(146, 28, 225) 60%, rgb(66, 195, 215) 100%); */
+    color: rgb(146, 28, 225);
+}
+
+.blog-section:hover .blog-section-description { 
+    color: rgb(146, 28, 225);
+}
+
+.hovercolor:hover {
+    color:rgb(146, 28, 225);
+}
 
 /* Trickery: Instead of using tailwind's normal resets, 
 we are only resetting select things, otherwise we'll get
@@ -56,21 +67,26 @@ a {
 
 /* Add some tasty image captions */
 span + em, img + em { 
-    @apply text-xs;
+    margin-top: 0.25rem;
+    @apply text-sm;
     @apply opacity-50;
     font-family: "Inter";
-    line-height: 0.7rem;
+    line-height: 18px;
+  
 }
 
 /* God this is horrible! */
 section p img {
-    margin-bottom: 0;
+    margin-bottom: 12px;
 }
 
 /* Bringing the color back to blog links */
 section a {
-    @apply text-indigo-500;
+    /* @apply bg-indigo-600; */
+    color:rgb(146, 28, 225);
 }
+
+
 
 /* Make all type small */
 @media (max-width: 768px) {

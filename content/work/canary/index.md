@@ -5,10 +5,13 @@ date: "2020-12-01T22:12:03.284Z"
 years: "2018 – 2020"
 featuredImage: "./cover.jpg"
 role: "Lead Product Designer"
-description: "As Lead Product Designer at NYC startup Canary, I worked on initiatives across product and marketing. The most impactful of these was a complete redesign of the mobile and web apps as the business transitioned from a one-time-sales to a SaaS model."
-intro: "When I first talked with Jon Troutman, Co-founder of Canary in 2018, I was immediately intrigued by the predicament the IoT startup was in. The company’s design-led hardware and software had built up a devoted following of early-adopters, but the business was staggering under the weight of its rapidly-growing server costs. 
+description: "Canary is one of those cameras that give you a notification if a masked stranger is snooping around your house, or if your dog is doing something funny. 
 <br><br>
-To thrive, the company needed to rethink its business model from the ground up. I was brought on by Jon as Lead Product Designer to drive product and growth intiatives as Canary transitioned into a service-led company and leader in the IoT home security space."
+<b>Highlights:</b> redesigning the mobile app as the business shifted from a hardware only to completely SaaS-model.
+<br><br>
+Redesigning the entire e-commerce experience for massive conversion increases (kidding, it was only around 5%...but hey, when you're pulling tens of millions in recurring revenue a year...)
+"
+intro: ""
 activelink: false
 team: ["Maciej Szelazek", "Marc DeBartolomeis", "Amruta Gosavi", "Michael Klein"]
 worktype: ["Product Design", "Product Management"]

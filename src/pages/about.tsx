@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 import moment from 'moment'
-import portrait from "../../content/assets/kevin.jpg"
+import portrait from "../../content/assets/profile.jpg"
 
 type Data = {
   site: {
@@ -35,43 +35,47 @@ const About = ({ data, location }: PageProps<Data>) => {
   const siteTitle = data.site.siteMetadata.title
   return (
     <Layout location={location} title={siteTitle}>
-      <h3 style={{
+      {/* <h3 style={{
                   marginBottom: rhythm(4),
                 }}
                 className="text-3xl mb-2">
                 Hi!
-              </h3>
+              </h3> */}
       <SEO title="About" />
-      <div className="grid md:grid-cols-2 gap-8">
+      <div className="grid md:grid-cols-2 gap-8 mt-3">
      
-          <div className="">
-          <img src={portrait} alt="it'sa me" />
+          <div className="rounded-lg">
+          <img src={portrait} alt="it'sa me" className="rounded-lg"/>
           </div>
           <div className="">
 
-I'm Kevin, a product designer living in Brooklyn. 
-
-<br/><br/>Previously, I was the Lead Product Designer at NYC startup Canary. I've done product design and marketing consulting through my studio practice for a number of startups, including Kangaroo, Corcus, and EmberLabs.
+My name is Kevin. I live in New York.
 
 <br/><br/>
-<p className=" ">I believe in:</p>
+<p className=" ">The broad idea behind my work is that <b>user success is fractal</b>. For software creators, "making users successful and getting paid for it" is a process that starts by looking at what our users want in their LIVES and how they're trying to GET it. 
 
-<p className="font-bold mb-0">Prioritizing impact</p>
-<p >It boggles my mind how much time designers & engineers are willing to spend on blue-sky features that end up unused, but not take the 10 minutes to make tweaks that guarantee +10% conversions.</p>
+Then it's a matter of recursing downwards and downwards and downwards to the tiniest of moments.
+</p>
+<p>
+After all, we never buy products, we buy better versions of ourselves.</p>
+<p className=" ">
+These days I'm working on <b>Compound UX</b>, a consultancy that accelerates startups. 
+</p>
+<p className=" ">
+I'll say this now and I'll say this forever: it's disgusting how much money SaaS businesses are leaving on the table by not performing the simplest of optimizations.
+</p>
+<p className=" ">
+Routinely neglected areas that should be receiving as much attention than your actual product: every page on your marketing site, your SEO (blog and tools), your onboarding, your email follow-ups.
+</p>
+<p className=" ">
+Any of this seem interesting to you? Drop me a line!<br/>
+<b>kevin @ kevthema.com</b></p>
 
-<p className="font-bold mb-0">Starting from first principles</p>
-<p>Product decisions should be informed by a chain of logic, not fluffy data.</p>
-
-<p className="font-bold mb-0">Incermental Improvement</p>
-<p>We won't get it perfect the first time, or ever. But well-planned rapid iteration will help us get pretty close.</p>
 
 
-          </div>
 
-
-      </div>
-
-      
+        </div>
+      </div> 
     </Layout>
   )
 }

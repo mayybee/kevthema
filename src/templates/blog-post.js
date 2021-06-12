@@ -23,10 +23,9 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
             }}>
         <div className="col-span-1">
 
-          <p className="text-xs font-sans opacity-50 mb-0">Posted</p>
+          <p className="text-sm opacity-50 mb-0">Posted</p>
           <p
             style={{
-              ...scale(-1 / 5),
               marginBottom: rhythm(1),
             }}
           >

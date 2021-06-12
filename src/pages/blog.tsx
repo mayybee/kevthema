@@ -35,14 +35,14 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   let prevYear = 2021
   return (
     <Layout location={location} title={siteTitle}>
-      <h3 style={{
+      {/* <h3 style={{
                   marginBottom: rhythm(4),
                 }}
                 className="text-3xl mb-2">
                 Writing
-              </h3>
+              </h3> */}
       <SEO title="Writing" />
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-8">
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         let year = Number(moment(node.frontmatter.date).format('YYYY'))
@@ -53,19 +53,19 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
         }
         return (
           <>
-          <div className="col-span-1">
+          <div className="col-span-8 mb-4 sm:col-span-1 sm:mb-0">
             {print}
           </div>
-          <div className="col-span-3">
+          <div className="col-span-8 sm:col-span-7">
           <article className="max-w-xl" key={node.fields.slug} style={{ marginBottom: rhythm(2),}}>
           <Link className="blog-section" style={{ boxShadow: `none` }} to={node.fields.slug}>
             <header>
-              <p className="blog-section-title" style={{ marginBottom: rhythm(1 / 2),}}>
+              <p className="blog-section-title" style={{ marginBottom: rhythm(0),}}>
                   {title}
               </p>
             </header>
             <section>
-              <p className="opacity-50"
+              <p className="opacity-50 blog-section-description"
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}

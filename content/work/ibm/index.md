@@ -1,11 +1,11 @@
 ---
 posttype: "work"
 title: IBM
-date: "2020-05-08T23:46:37.121Z"
+date: "2017-05-08T23:46:37.121Z"
 featuredImage: "./cover.jpg"
 role: "Product Designer"
 years: "2016"
-description: "A designer embedded into the Cloud team, I researched and prototyped experiences that would eventually replace Live Chat to become IBM Live Advisor, used across all IBM Cloud experiences."
+description: "We built IBM live chat and consultation scheduling (branded as IBM Live Advisor) on all IBM Cloud products. I hope it's slightly less frustrating than the other live chats out there."
 intro: "IBM Live Advisor"
 activelink: false
 team: ["Jane Park"]

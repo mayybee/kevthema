@@ -1,90 +1,70 @@
 ---
 posttype: "blog"
 title: On Compulsion
-date: "2019-12-01T22:12:03.284Z"
-description: "A case for putting the cart before the horse when setting goals."
+date: "2019-12-02T22:12:03.284Z"
+description: "There's no need to put the cart before the horse."
 ---
 
+> *I want to be a writer, so I’m going to brainstorm some ideas.*
 
-*I want to be a writer, so I’m going to brainstorm some ideas.*
+> *I want to be a painter, so I’m going to think of things to draw.*
 
-*I want to be a visual artist, so I’m going to think of things to draw.*
+> *I want to make a business, so I’m going develop a product.*
 
-*I want a significant other, so I’m going to look for people to date.*
+Innocuous statements, right? 
 
-*I want to make a business, so I’m going develop a product.*
+After all, it's how we’re trained since young. To visualize outcomes, set goals, and then take the necessary steps to achieve them. This approach works, otherwise it wouldn't be so widespread.
 
-This is how we’re trained from childhood. To visualize outcomes, set goals, and then take the necessary steps to achieve them.
+But it only works for mechanical processes. In the pursuit of any art - business, sports, music - this approach won't take you very far. I find that people like the idea of having goals more than engaging  the process of attaining those goals.
 
-This approach works, otherwise we wouldn’t use it. The problem is applying it indiscriminately to everything we do.
+Let's flip these statements around:
 
-I have always found my creative and business pursuits to to be more enjoyable, satisfying, and successful if I went about them the exact opposite way:
+> *I have to write about this idea.*
 
-*This idea that is so compelling that I must write it down.*
+> *I have to draw this thing that I see in front of me.*
 
-*I wonder how this would look like. I have to draw it.*
+> *I have to create this and sell it.*
 
-*This person is fantastic. I would love to see them more often.*
+What's the difference?
 
-*People love this thing that I do for fun. Hey, I could charge for this.*
+The first group of statements come from the desire to be some 'type' of person. In other words, they come from a desire for attention. I want to be a type of person so I figure out to be percieved as that type of person. A recipe for feeling good maybe, but never efficacy.
 
-I think the difference is this: the first group of statements come from the desire to be some 'type' of person. In other words, they come from a desire for attention. 
+The second group are driven by compulsion. Call it obsession or whatever you want. 
 
-The second group are driven by pure compulsion. You have to do it.
+Socrates claimed to have a daimonion, a “divine something” that compelled him to do the right thing. The Iliad begins with the speaker of the poem invoking the Muse, asking her to sing the epic **through** him. Is it true that only some are born with the ability to be obsessed? 
+
+![Muses](./muses.jpeg)
+*With good enough genetics you get these in your head.*
+
+I don't think so.
+
+Treating this as a talent argument does these people a disservice. For all of their otherworldly creativity and ability, they are incredibly human. 
+
+I think their internal dialogue just spoke louder to them than in others.
+
+I argue that your **genes always know what they want**. 
+
+The problem is that their voices are drowned out by what other people say you should want. 
+
+This happens at every level of human existence. We're influenced by massive fractals of thought patterns our entire lives. Every group we consider ourselves a part of dreams a different dream. 
+
+In finding your own voice, I think the only answer is there is no how-to. It's a messy process.
+
+But the how not-to is clear to me. You don't get there ever, when you start with the desire for attention.
 
 ![Sherlock Holmes and Watson](./sherlock.png)
-*Compulsion, visualized*
+*Good actors turn the compulsion they have to act to their characters' compulsion.*
 
-When was the last time you were compelled to do something? 
-
-Was it easier or harder than when you tried to achieve a goal?
-
-I look at my more creative peers with a mixture of awe and envy. It’s as if some of are possessed.
-
-I believe Socrates claimed to have a daimonion, a “divine something” that compelled him to do the right thing. 
-
-The Iliad begins with the speaker of the poem invoking the Muse, asking her to sing the epic **through** him.
-
-But attribution does these people a disservice. For all of their otherworldly creativity, they are incredibly human. They’ve honed their ability with dedication, discipline and sacrifice. 
-
-They only seem to draw their ideas out of thin air because they’ve come up with so many ideas before, both good and bad. They create beautiful, useful, and profitable things again and again because they’ve put the legwork in.
-
-**I absolutely believe we all have this capability within us.**
-
-Often, we don’t feel compelled to create, much less do anything. We get excited about ideas, and think they are dumb a week later. We don’t feel inspired in our monotonous daily routines.
-
-So how do we become curious? Creative? **Compelled?**
-
-Here’s a story from my own life.
-
-I did an engineering degree in college to make myself more “employable”. It was mostly a slog and I hated it.
-
-On a whim I took a class in the Religions department to satisfy a requirement.
-
-The class was a breath of fresh air. The professor weaved psychology, philosophy, history, and mythology together to tell stories. That was it. Suddenly, I was interested in all those topics.
-
-For the first time in my life, I looked forward to going to class.
-
-I had no idea that I’d be interested, until I was.
-
-Everybody will tell you what is worth learning and what is not. Well-intentioned friends and family members. 'Thought leaders'. Ted Talks. CEOs. Social media. Books.
-
-**But only you will know what you actually like.**
-
-Because when you know you know. It’ll hit you like a rock and your brain will explode when the neurons are suddenly all going off at the same time and you realize you’ve been starved, like a traveler in a barren desert seeing water for the very first time.
-
-If you're not interested in the book with the rave reviews, put it down.
-
-If you don’t care about the social media opinion machine, delete the whole damn thing.
-
-If you aren’t interested in the ‘prestigious’ career that all your friends are going into, do something else.
-
-You’ll realize most of these things were about attention-seeking, anyways. And people forget what they were paying attention to 10 minutes ago.
+Most of modern life is built around attention-seeking. And people forget what they were paying attention to 10 minutes ago.
 
 So explore your natural interests. Nobody in the world knows what they are.
 
 You might not know what they are. 
 
-If that’s the case I’m jealous of you. This is the best part. This is the part where you read as much as possible in any topic. Where you go to plays, museums, meetups, whatever catches your eye. Where you dive a bit deeper into anything that makes you the tiniest bit curious.
+If that’s the case I’m jealous of you. 
 
-Because something will click. It always does.
+This is the best part.
+
+Because when you know you know. It’ll hit you like a rock and your brain will explode when the neurons are suddenly all going off at the same time and you realize you’ve been starved, like a traveler in a barren desert seeing water for the very first time.
+
+

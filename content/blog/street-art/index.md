@@ -1,7 +1,7 @@
 ---
 posttype: "blog"
-title: "Eating Off Of Your Art and the Pareto Principle"
-description: "Random observations from moonlighting as a street portrait artist."
+title: "Eat Off Your Art with the Pareto Principle"
+description: "Random observations from moonlighting as a street portrait artist in downtown Boston."
 date: "2017-06-25 09:01:00 -0500"
 ---
 

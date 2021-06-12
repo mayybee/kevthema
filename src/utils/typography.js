@@ -9,14 +9,19 @@ import twinPeaksTheme from 'typography-theme-twin-peaks'
 // const typography = new Typography(twinPeaksTheme)
 
 const typography = new Typography({
-  baseFontSize: "21px",
-  baseLineHeight: 1.7,
+  baseFontSize: "16px",
+  baseLineHeight: 1.6,
   headerFontFamily: [
     "Inter",
     "Helvetica",
     "sans-serif"
   ],
-  bodyFontFamily: ["Palatino", "Georgia", "serif"],
+  bodyFontFamily: 
+  [
+    "Inter",
+    "Helvetica",
+    "sans-serif"
+  ],
 })
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

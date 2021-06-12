@@ -48,28 +48,26 @@ const Index = ({ data, location }: PageProps<Data>) => {
         return (
           <article key={node.fields.slug} style={{
             marginTop: rhythm(4),
-            marginBottom: rhythm(6),
+            marginBottom: rhythm(5),
           }}>
-            <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} style={{
-              marginBottom: rhythm(1),
-            }} />
+            
 
             <div className="grid gap-8 md:grid-cols-2 grid-cols-1" style={{
               marginBottom: rhythm(1),
             }}>
               <header>
-                <h3 style={{ marginBottom: rhythm(1 / 2), }} className="text-3xl">
+                <b><p style={{ marginBottom: rhythm(0), }} className="">
                   {/* <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                     {title}
                   </Link> */}
                   {title}
-                </h3>
-                <p className="mb-0">{node.frontmatter.role}</p>
+                </p></b>
+                <p className="opacity-50 mb-0">{node.frontmatter.role}</p>
                 <p className="opacity-50 mb-0">{node.frontmatter.years}</p>
               </header>
               <div className="">
                 <p style={{
-                  marginBottom: rhythm(1),
+                  marginBottom: rhythm(0.25),
                 }}
                   dangerouslySetInnerHTML={{
                     __html: node.frontmatter.description || node.excerpt,
@@ -83,6 +81,10 @@ const Index = ({ data, location }: PageProps<Data>) => {
                 </Link>
               </div>
             </div>
+            <Img sizes={node.frontmatter.featuredImage.childImageSharp.sizes} style={{
+              marginBottom: rhythm(1),
+              borderRadius: "32px",
+            }} />
           </article>
         )
       })}
