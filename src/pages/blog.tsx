@@ -36,7 +36,8 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   return (
     <Layout location={location} title={siteTitle} >
       <SEO title="Writing" />
-      <div className="grid grid-cols-8">
+  
+      <div className="grid grid-cols-8 	">
       {posts.map(({ node }) => {
         const title = node.frontmatter.title || node.fields.slug
         let year = Number(moment(node.frontmatter.date).format('YYYY'))
@@ -68,13 +69,13 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
             </Link>
           </article>
         </div>
+        
         </>
         )
 
 
       })}
       </div>
-
       
     </Layout>
   )

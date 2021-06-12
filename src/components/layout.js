@@ -48,24 +48,26 @@ const Layout = ({ location, title, children }) => {
     )
   }
   return (
+    <div className="min-h-screen relative">
     <div
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
         maxWidth: rhythm(40),
-        // padding: `${rhythm(1.5)} ${rhythm(1.5)}`,
       }}
       className="p-5 md:p-10" //reponsive padding for all content
     >
       <Header title={title}/>
       <main style={{
                   marginTop: rhythm(3),
+                  marginBottom: rhythm(3),
                 }}>{children}</main>
-      <footer style={{
-          marginTop: rhythm(4),
-        }}>
+      <footer className="footer" style={{
+                height: "4rem"
+      }}>
         © {new Date().getFullYear()}
       </footer>
+    </div>
     </div>
   )
 }

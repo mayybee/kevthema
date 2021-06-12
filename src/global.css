@@ -31,6 +31,12 @@
     color:rgb(146, 28, 225);
 }
 
+.footer {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 /* Trickery: Instead of using tailwind's normal resets, 
 we are only resetting select things, otherwise we'll get
 no use out of the opinionated typography.js rules!*/
