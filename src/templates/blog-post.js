@@ -62,7 +62,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                 }}
               >
                 <li>
-                  {previous.frontmatter.posttype=="blog" && (
+                  {previous.frontmatter.posttype==="blog" && (
                     <Link to={previous.fields.slug} rel="prev">
                       <span className="opacity-50">Previous</span><br/>
                       ← {previous.frontmatter.title}
@@ -70,7 +70,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
                   )}
                 </li>
                 <li>
-                  {next.frontmatter.posttype=="blog" && (
+                  {next.frontmatter.posttype==="blog" && (
                     <Link to={next.fields.slug} rel="next">
                       <span className="opacity-50">Next</span><br/>
                       {next.frontmatter.title} →
