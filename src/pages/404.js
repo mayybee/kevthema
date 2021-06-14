@@ -20,7 +20,7 @@ const NotFoundPage = ({ data, location }) => {
           marginBottom: rhythm(1) }}>What you're looking for has mysteriously vanished</p>
          
           <p style={{ marginBottom: rhythm(1) }}>
-          Come rest by thy bonfire. Then off with ye, intrepid adventurer.
+          Take nourishment by thy bonfire. Then off with ye, intrepid adventurer.
           <br/><br/>Don't you dare give up.
           </p>
 
