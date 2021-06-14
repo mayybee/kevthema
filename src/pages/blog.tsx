@@ -35,7 +35,7 @@ const BlogIndex = ({ data, location }: PageProps<Data>) => {
   let prevYear = 2021
   return (
     <Layout location={location} title={siteTitle} >
-      <SEO title="Writing" />
+      <SEO title="Blog" />
   
       <div className="grid grid-cols-8 	">
       {posts.map(({ node }) => {

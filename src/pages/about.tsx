@@ -68,10 +68,10 @@ I've since discovered that SaaS businesses are leaving a disgusting amount of mo
 Routinely neglected areas include: every single page on your marketing site, your SEO, your onboarding, your onboarding that happens after your initial onboarding, your emails.
 </p>
 <p className=" ">
-Any of this seem remotely interesting to you? Let's talk about it!<br/>
+Any of this remotely interesting to you? Let's talk about it! <br/>
 <b>kevin @ kevthema.com</b></p>
 
-Also things 
+
 <p className=" "></p>
 
 
