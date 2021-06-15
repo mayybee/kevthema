@@ -8,7 +8,7 @@ description: "<b>Compound Interest:</b> You make interest on your money, then yo
 <br><br>
 <b>Compound UX:</b> We make users successful (far before they’ve even bought our product), then we make them even more successful based on the snowballing nature of previous successes.
 <br><br>
-A software consultancy with a simple thesis: UX compounds, meaning that successful user experiences (and conversions) come not from additive steps, but from <b>multiplicative</b> and <b>exponential</b> ones."
+A software consultancy with a simple thesis: UX compounds, meaning that successful user experiences (and conversions) come not from additive improvements, but from <b>multiplicative</b> and <b>exponential</b> ones."
 intro: ""
 role: "Growth & Design"
 activelink: false
