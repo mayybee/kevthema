@@ -9,7 +9,6 @@ description: "There's never a need to put the cart before the horse."
 
 ![Memes](./memes.jpg)
 
-
 > *I want to be a writer, so I'm going to take XYZ workshops and read ABC books on writing and brainstorm AlphaBetaGamma ideas.*
 
 > *I want to be a painter, so I’m going to work on XYZ fundamentals and think of ABC things to draw.*

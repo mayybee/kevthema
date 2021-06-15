@@ -7,9 +7,9 @@ featuredImage: "./cover.jpg"
 role: "Lead Product Designer"
 description: "Canary is one of those cameras that give you a notification if a masked stranger is snooping around your house, or if your dog is doing something funny. 
 <br><br>
-Highlights include redesigning the mobile app as the business shifted from a hardware-sales-only to SaaS-only model (yes, that's giving away the hardware for free).
+Highlights include redesigning the mobile app as the business shifted from a hardware-sales-only to SaaS-only model (you got it, that's giving away the cameras for free).
 <br><br>
-+ redesigning the entire e-commerce experience for massive conversion increases (kidding, it was only around 5%...but hey, when you're pulling tens of millions in recurring revenue a year."
++ redesigning the entire e-commerce experience for massive conversion increases (kidding, it was only around 5%...but hey, when you're pulling tens of millions in recurring revenue a year...)"
 intro: ""
 activelink: false
 team: ["Maciej Szelazek", "Marc DeBartolomeis", "Michael Klein"]
