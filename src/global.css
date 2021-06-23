@@ -27,6 +27,19 @@
     color:rgb(146, 28, 225);
 }
 
+.brandcoloralt {
+    color:rgb(33, 144, 218);
+}
+
+.brandbuttonalt {
+    cursor: pointer;
+    padding: 0.125rem 1rem;
+    border-radius: 8px;
+    background-color: rgba(33, 144, 218, 0.05);
+    color:rgb(33, 144, 218);
+}
+
+
 .hovercolor:hover {
     color:rgb(146, 28, 225);
 }

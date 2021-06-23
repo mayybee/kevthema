@@ -54,7 +54,7 @@ My name is Kevin and I live in NYC.
 <br/><br/>
 <p className=" ">The broad idea behind my work is that <b>user success is fractal</b>. For software creators, "making users successful and getting paid for it" is a process that starts by looking at what our users want in their LIVES and how they're trying to GET it. 
 
-Then it's a matter of recursing downwards and downwards to those aha! software moments.
+Then it's a matter of recursing downwards and downwards to those aha! moments.
 </p>
 <p>
 After all, we never really buy product features do we? We buy better versions of ourselves.</p>
@@ -68,11 +68,11 @@ I've since discovered that SaaS businesses are leaving a disgusting amount of mo
 Routinely neglected areas include: every single page on your marketing site, your SEO, your onboarding, your onboarding that happens after your initial onboarding, your emails.
 </p>
 <p className=" ">
-Any of this remotely interesting to you? Let's talk about it! <br/>
-<b>kevin @ kevthema.com</b></p>
+Feel free to email me or DM on LinkedIn:<br/><br/>
+<a className='brandcolor' href='mailto:hey@kevthema.com'><span className='brandbutton'>hey@kevthema.com</span></a>
+<a className='brandcoloralt ml-3' href='https://linkedin.com/in/kevthema'><span className='brandbuttonalt'>LinkedIn</span></a>
 
-
-<p className=" "></p>
+</p>
 
 
 
