@@ -57,7 +57,7 @@ My name is Kevin and I live in NYC.
 Then it's a matter of recursing downwards and downwards to those aha! moments.
 </p>
 <p>
-After all, we never really buy product features do we? We buy better versions of ourselves.</p>
+After all, we never really buy product features do we? We buy better versions of ourselves (and software people are always forgetting this).</p>
 <p className=" ">
 These days I'm working on <b>Compound UX</b>, a consultancy that accelerates startups. 
 </p>
@@ -69,7 +69,8 @@ Routinely neglected areas include: every single page on your marketing site, you
 </p>
 <p className=" ">
 Feel free to email me or DM on LinkedIn:<br/><br/>
-<a className='brandcolor' href='mailto:kev@kevthema.com'><span className='brandbutton'>kev@kevthema.com</span></a>
+<a className='brandcolor' href='mailto:kev@kevthema.com'>
+  <span className='brandbutton'>kev@kevthema.com</span></a>
 <a className='brandcoloralt ml-3' href='https://linkedin.com/in/kevthema'><span className='brandbuttonalt'>LinkedIn</span></a>
 
 </p>
