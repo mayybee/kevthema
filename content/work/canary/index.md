@@ -9,7 +9,7 @@ description: "Canary is one of those cameras that give you a notification if a m
 <br><br>
 Highlights include redesigning every touchpoint as the business shifted from a hardware-sales-only to SaaS-only model (you got it, that's giving away the cameras for free).
 <br><br>
-<b>+</b> redesigning the entire e-commerce experience for massive conversion increases (kidding, it was only around 5%...but hey, when you're pulling tens of millions in recurring revenue a year...)"
+<b>+</b> redesigning the entire e-commerce experience for massive conversion increases (kidding, it was only around 5%...but hey, when you're singing to the tune of tens of millions in recurring revenue a year...)"
 intro: ""
 activelink: false
 team: ["Maciej Szelazek", "Marc DeBartolomeis", "Michael Klein"]
