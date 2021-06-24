@@ -8,7 +8,7 @@ description: "<b>Compound Interest:</b> You make interest on your money, then yo
 <br><br>
 <b>Compound UX:</b> We make users successful (far before they’ve even bought our product), then we make them even more successful based on their snowballing previous success. Repeat infinite cycles.
 <br><br>
-Software consulting based on a simple idea: UX compounds, so helping users become successful IMMEDIATELY results in exponential bottom line growth."
+Software consulting based on a simple idea: compounding user success equals exponential bottom-line growth, and should be optimized for as early as possible."
 intro: ""
 role: "Growth & Design"
 activelink: false

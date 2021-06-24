@@ -69,7 +69,7 @@ Routinely neglected areas include: every single page on your marketing site, you
 </p>
 <p className=" ">
 Feel free to email me or DM on LinkedIn:<br/><br/>
-<a className='brandcolor' href='mailto:hey@kevthema.com'><span className='brandbutton'>hey@kevthema.com</span></a>
+<a className='brandcolor' href='mailto:kev@kevthema.com'><span className='brandbutton'>kev@kevthema.com</span></a>
 <a className='brandcoloralt ml-3' href='https://linkedin.com/in/kevthema'><span className='brandbuttonalt'>LinkedIn</span></a>
 
 </p>
