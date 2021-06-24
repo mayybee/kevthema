@@ -59,7 +59,7 @@ Then it's a matter of recursing downwards and downwards to those aha! moments.
 <p>
 After all, we never really buy product features do we? We buy better versions of ourselves (and software people are always forgetting this).</p>
 <p className=" ">
-These days I'm working on <b>Compound UX</b>, a consultancy that accelerates startups. 
+These days I'm working on <b>CompoundUX</b>, a consultancy that accelerates startups. 
 </p>
 <p className=" ">
 I've since discovered that SaaS businesses are leaving a disgusting amount of money on the table by not performing the simplest of optimizations.
